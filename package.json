@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@pinecone-database/pinecone": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "ollama": "^0.5.14",
+    "pdf-parse": "^1.1.1",
+    "pinecone": "^0.1.0"
+  },
+  "type": "module"
+}
