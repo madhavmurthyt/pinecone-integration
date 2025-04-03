@@ -13,7 +13,7 @@ const pinecone = new Pinecone({
 
 async function createIndex() {
     try {
-        console.log("Creating index...");
+        console.log("Creating index1...");
         const jsonObject = JSON.parse(JSON.stringify(await pinecone.listIndexes()));
 
         if (jsonObject && jsonObject.indexes && Array.isArray(jsonObject.indexes)) {
